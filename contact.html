@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="final project - hotel website">
+    <meta name="keywords" content="HTML, CSS, Form, Responsive, Fonts, pseudo classes, transitions, hover effects">
+    <meta name="author" content="Ana Khazhomia">
+    <meta name="google" content="notranslate" />
+    <title> Final Project </title>
+    <link rel="stylesheet" type="text/css" href="slick.css">
+	<link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/9bd2b63af3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- header -->
+  <header class="header-wraper">
+    <div class="navigation">
+      <a class="logo" href="index.html"> <img src="images/logo.png" alt="logo"> </a>
+      
+      <nav class="navi">
+        <ul class="nav-ul">
+          <li><a class="nav-a" href="index.html"> Home </a></li>
+          <li><a class="nav-a" href="Rooms.html"> Rooms </a></li>
+          <li><a class="nav-a" href="services.html"> Services </a></li>
+          <li><a class="nav-a" href="about.html"> About us </a></li>
+          <li><a class="nav-a active" href="contact.html"> Contact </a></li>
+        </ul>
+      </nav>
+      <div class="burger-bar burger-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+
+  <section>
+    <div class="contact-container">
+        <form class="form1">
+            <div class="book-form">
+                <label class="book-labels" for="datefrom"> check in date </label>
+                <input class="book-textbox" type="date" id="datefrom" name="datefrom">
+            </div>
+            <div class="book-form">
+                <label class="book-labels" for="dateto"> check out date </label>
+                <input class="book-textbox" type="date" id="dateto" name="dateto">
+            </div>
+            <div class="book-form">
+                <label class="book-labels" for="room"> Rooms </label>
+                <input class="book-textbox" type="text" id="room" name="room" placeholder="Enter Room Type">
+                
+            </div>
+            <button class="book-button" type="submit"> Submit <i class="fas fa-chevron-circle-right"> </i> </button>
+            
+    </form>
+    </div>
+  </section>
+
+<section>
+    <div class="contact-container2">
+        <div class="text-wraper">
+            <h2 class="contact-title1">Contact</h2>
+            <h4 class="contact-title2">Contact us to get free support</h4>
+        </div>
+      
+        <div class="form-block-wraper">
+        <form class="form2">
+            <div class="form-block">
+                <label for="review"></label>
+                <textarea class="textarea-block" id="review" placeholder="Please type your message..."></textarea>
+            </div>
+        
+            
+                <div class="form-block">
+                    <label for="subject"></label>
+                    <input class="input-block" type="text" id="subject" name="subject" placeholder="Enter Subject" required>
+                </div>
+                <div class="form-block">
+                    <label for="fullname"></label>
+                    <input class="input-block" type="text" id="fullname" name="fullname" placeholder="Enter Your Full Name" required>
+                </div>
+                <div class="form-block">
+                    <label for="email"></label>
+                    <input class="input-block" type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                </div>
+                <button class="button2" type="submit"> Send <i class="fas fa-chevron-circle-right"> </i></button>
+            
+        </form>
+      </div>
+    </div>
+</section>
+
+<section>
+    <div class="contact-container3">
+        <div class="contact-info">
+            <div class="c-info">
+                <div class="fav-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <h4 class="contact-title3"> Email </h4>
+                <p class="contact-text"> info@maldivesayada.com </p>
+                <p class="contact-text"> maldivesayada@info.com </p>
+            </div>
+            <div class="c-info">
+                <div class="fav-icon">
+                    <i class="fas fa-phone-volume"></i>
+                </div>
+                <h4 class="contact-title3"> Phone </h4>
+                <p class="contact-text">+960 555 4444 </p>
+                <p class="contact-text">+960 555 5555 </p>
+            </div>
+            <div class="c-info">
+              <div class="fav-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h4 class="contact-title3"> Location </h4>
+              <p class="contact-text">Magudhuva Island, Gaafu Dhaalu Atoll, Republic of Maldives</p>
+          </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <footer>
+    <div class="line"></div>
+    <div class="footer-container footer-wraper">
+        <div class="footer-block">
+            <a class="footer-title" href="index.html">Ayada Hotel</a>
+            <p class="footer-text">Make memories that last for a lifetime. Ayada Maldives offers an extensive
+               list of excursions that will showcase the finest and authentic Maldivian experiences. 
+               Thank you for your interest in our company.</p>
+               <img class="img-footer" src="images/footer-logo.png" alt="footer-logo">
+
+        </div>
+        <div class="footer-block2">
+            <h3 class="footer-title">Useful links:</h3>
+            <ul class="footer-ul">
+                <li> <a class="nav-footer" href="Rooms.html">Rooms</a></li>
+                <li> <a class="nav-footer" href="services.html">Services</a></li>
+                <li> <a class="nav-footer" href="about.html">About us</a></li>
+                <li> <a class="nav-footer active" href="contact.html">Contact</a></li>
+            </ul>
+            
+        </div>
+
+        <div class="footer-block3">
+          <h3 class="footer-title">ORDERS & RETURNS:</h3>
+          <ul class="footer-ul">
+              <li> Order </li>
+              <li> Status </li>
+              <li> Shipping </li>
+              <li> Policy & Service </li>
+          </ul>
+          
+      </div>
+
+      <div class="footer-block4">
+          <h3 class="footer-title">Find us:</h3>
+          <div class="footer-images footer-size">
+              <i class="fab fa-facebook-square ico"></i>
+              <i class="fab fa-twitter ico"></i>
+              <i class="fab fa-instagram ico"></i>
+          </div>
+          <div class="footer-images footer-size">
+              <i class="fab fa-linkedin-in ico"></i>
+              <i class="fab fa-facebook-messenger ico"></i>
+              <i class="fab fa-pinterest-square ico"></i>
+              
+          </div>
+          
+      </div>
+
+    </div>
+</footer>
+</body>
+</html>
